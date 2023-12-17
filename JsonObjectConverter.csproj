@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon>json_logo.ico</ApplicationIcon>
+    <Authors>thibeastmo</Authors>
+    <Description>Json converter that allows you to read a json through an object (with nested objects and tuplelists).
+It also gives u the possibility to convert to the type that has been given.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>json_logo.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.38</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Own_Made_Nugets\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="D:\Afbeeldingen\json_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
