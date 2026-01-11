@@ -17,7 +17,7 @@ It also gives u the possibility to convert to the type that has been given.</Des
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="D:\Afbeeldingen\json_logo.png">
+    <None Update="json_logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
